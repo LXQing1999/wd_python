@@ -1,0 +1,29 @@
+"""
+list_op 
+Author:25423
+Date:2023/6/26
+"""
+name=['lee','zhang','wong']
+print(name[0])
+name[0]='cai'
+print(name.index('cai'))
+name[1]='xu'
+name[2]='kun'
+print(name[1])
+print('list长度',len(name))
+name.append('chicken')
+name.insert(4,'you')
+print(name)
+# 不同方法删除元孙
+name.pop(4)
+del name[3]
+name.remove('xu')
+print('删除元素后:',name)
+name.sort()
+print('排序',name)
+name.sort()
+print('按ASCII码排序',name)
+name.reverse()
+print('翻转',name)
+name.clear()
+print(name)
