@@ -1,0 +1,75 @@
+  397  ping www.baidu.com 
+  398  sudo apt update
+  399  sudo apt install ssh
+  400  ps -elf|grep ssh
+  401  sudo apt install vim
+  402  vim --version
+  403  su root
+  404  sudo passwd root
+  405  cat /etc/sudoers
+  406  sudo cat /etc/sudoers
+  407  clear
+  408  cat /etc/passwd
+  409  sudo useradd -m LXQing -s /bin/bash
+  410  cat /etc/passwd
+  411  pwd
+  412  ls ..
+  413  cd ..
+  414  ls
+  415  history
+  416  lxq:x:1000:1000:lxq,,,:/home/lxq:/bin/bash
+  417  sudo passwd LXQing
+  418  sudo passwd root 
+  419  su root
+  420  su 
+  421  su LXQing
+  422  sudo useradd -m LXQing
+  423  ls ..
+  424  history
+  425  cat /etc/passwd
+  426  sudo useradd -m LXQing -s /bin/bash
+  427  sudo userdel LXQing1999
+  428  ls ..
+  429  userdel -r LXQing
+  430  sudo userdel -r LXQing
+  431  ls ..
+  432  cat /etc/passwd
+  433  su LXQing
+  434  exit
+  435  history
+  436  sudo passwd root
+  437  sudo useradd -m LXQing -s /bin/bash
+  438  sudo passwd LXQing
+  439  ls ..
+  440  cat /etc/passwd
+  441  sudo userdel -r LXQing
+  442  cat /etc/passwd
+  443  cd ..
+  444  ls ..
+  445  ls Desktop/
+  446  pwd
+  447  ls -l /home/lxq 
+  448  cd ~
+  449  cd /
+  450  cd -
+  451  mkdir day02
+  452  ls
+  453  rm day02
+  454  rm -r day02
+  455  mkdir day02
+  456  cd day02
+  457  touch file
+  458  ls -l
+  459  echo hello
+  460  echo hello >file
+  461  cat file
+  462  cd day02
+  463  cat /etc/pass
+  464  cat /etc/passwd
+  465  su LXQing
+  466  sudo useradd -m LXQing -s /bin/bash
+  467  su LXQing
+  468  ls ..
+  469  cat /etc/passwd
+  470  history |tail -75
+  471  history |tail -75 >day2_lxq.txt

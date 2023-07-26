@@ -1,0 +1,30 @@
+1. New a repository(!!! Public no Private!!!)
+   git clone https://github.com/VidyaLee/Scripts.git
+
+2. cd Scripts/       //Scripts是仓库名字，上面建的仓库名字
+   touch commands.txt   //新建一个.txt文件，记录一下修改
+   cp ../stringfunction.cpp  .   //把上一级目录里的文件复制到现在的位置
+
+3. git status 
+   git add .    添加到当前目录
+   git commit -m "备注：针对这次上传做了哪些修改，说明理由和效果"
+
+4. If Author identity unknown
+   *** Please tell me who you are.
+
+   git config  user.email "2542398121@qq.com"
+   git config  user.name "VidyaLee"
+
+5. In this step, you may still run command 3.
+
+5. git push
+   Username for 'https://github.com': VidyaLee
+   Password for 'https://VidyaLee@github.com':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
+
+6. In this step, you may still run command 5.
+
+7. git config credential.helper store   //使用这个帮助程序会将你的密码存储在磁盘上，只受文件系统权限保护。
+   sudo git config --system --unset credential.helper
+
+8. You can complete the progress with and without VPN.
+
